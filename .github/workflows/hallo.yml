@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Begrüßung
-        run: echo "Hallo, ${{ inputs.name || 'Welt' }}!"
+        run: echo "Hallo, ${{ inputs.name }}!"
 
       - name: Datum und Uhrzeit
         run: date
